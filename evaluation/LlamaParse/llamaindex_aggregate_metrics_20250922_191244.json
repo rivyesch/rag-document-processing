@@ -1,0 +1,7 @@
+{
+  "aggregates": {
+    "Hit Rate": 0.829,
+    "MRR": 0.648,
+    "nDCG": 0.494
+  }
+}

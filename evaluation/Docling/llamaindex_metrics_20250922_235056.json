@@ -1,0 +1,875 @@
+[
+  {
+    "index": 1,
+    "question": "What is Apple\u2019s fiscal year-end date in the 2021 Form 10-K?",
+    "reference": "September 25, 2021.",
+    "expected_ids": [
+      "e50d3503-bb3a-4cbb-9703-1980005952cc",
+      "957aa729-048a-451e-9701-0fdbd7fef83c",
+      "cdad5769-f126-4ff2-9cf5-88b8525fdcd4",
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8",
+      "6eb5b3a9-8c7b-49bf-9dcc-a0bde63d5560"
+    ],
+    "retrieved_ids": [
+      "55471c15-110f-426e-8767-dcdcea49cfb1",
+      "e21a2a41-b7f7-474f-9907-ebfb44c840d0",
+      "62d3096f-61d2-495a-967d-46870be51eb4",
+      "9118c7d5-b90b-423c-99ec-1920eba1ebc0",
+      "fe93c13e-251d-4a31-894a-ca6f071365f5"
+    ],
+    "metrics": {
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap": 0.0,
+      "ndcg": 0.0
+    }
+  },
+  {
+    "index": 2,
+    "question": "How many shares of common stock were outstanding as of October 15, 2021?",
+    "reference": "16,406,397,000 shares.",
+    "expected_ids": [
+      "ea6ae3e8-91ff-4a72-99fc-b31db9f93571",
+      "03bc1298-6a60-43e4-bdf9-1f433cbf3a63",
+      "27d0fa12-7162-42f3-9421-434a007eef81"
+    ],
+    "retrieved_ids": [
+      "ea6ae3e8-91ff-4a72-99fc-b31db9f93571",
+      "df2d3fad-3db7-4c2d-90ba-51ca68988ce8",
+      "03bc1298-6a60-43e4-bdf9-1f433cbf3a63",
+      "27d0fa12-7162-42f3-9421-434a007eef81",
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 0.8055555555555555,
+      "ndcg": 0.9060254355346823
+    }
+  },
+  {
+    "index": 3,
+    "question": "What was the aggregate market value of voting and non-voting stock held by non-affiliates as of March 26, 2021?",
+    "reference": "Approximately $2,021,360,000,000.",
+    "expected_ids": [
+      "43451dc4-ae2d-4cc2-95cd-14fc7447d7a9"
+    ],
+    "retrieved_ids": [
+      "43451dc4-ae2d-4cc2-95cd-14fc7447d7a9",
+      "03bc1298-6a60-43e4-bdf9-1f433cbf3a63",
+      "df2d3fad-3db7-4c2d-90ba-51ca68988ce8",
+      "a724e767-8dfe-4136-abd9-865b14b20503",
+      "e50d3503-bb3a-4cbb-9703-1980005952cc"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.2,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 4,
+    "question": "Which iPhone models were released in October and November 2020?",
+    "reference": "iPhone 12, iPhone 12 mini, iPhone 12 Pro, and iPhone 12 Pro Max.",
+    "expected_ids": [
+      "8bf49a33-c6f1-4966-a219-19b765389d05",
+      "a752b38a-ca64-4c96-8a8c-e15ad2174459",
+      "b2c3d03d-5baf-492e-9cf3-fc82d35e3de6"
+    ],
+    "retrieved_ids": [
+      "8bf49a33-c6f1-4966-a219-19b765389d05",
+      "b2c3d03d-5baf-492e-9cf3-fc82d35e3de6",
+      "a752b38a-ca64-4c96-8a8c-e15ad2174459",
+      "42086fad-a915-4edf-b697-d066ed808a94",
+      "3d51b266-a597-44fd-a572-6f00412cf3f3"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 5,
+    "question": "Which Mac models released in 2020\u20132021 were powered by the Apple M1 chip?",
+    "reference": "MacBook Air, 13-inch MacBook Pro, Mac mini, iMac (redesigned, May 2021).",
+    "expected_ids": [
+      "a752b38a-ca64-4c96-8a8c-e15ad2174459",
+      "9b7c4763-006c-45e9-b36c-3ccf99d36634",
+      "42086fad-a915-4edf-b697-d066ed808a94"
+    ],
+    "retrieved_ids": [
+      "a752b38a-ca64-4c96-8a8c-e15ad2174459",
+      "9b7c4763-006c-45e9-b36c-3ccf99d36634",
+      "42086fad-a915-4edf-b697-d066ed808a94",
+      "8bf49a33-c6f1-4966-a219-19b765389d05",
+      "e9930b1f-948e-4daf-8b9e-1630e7946d46"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 6,
+    "question": "Which services launched or expanded in 2021?",
+    "reference": "Apple Fitness+, Apple TV+, Apple News+, Apple Music, Apple Arcade.",
+    "expected_ids": [
+      "c94e6d35-6409-41f6-b3e8-a8c6de04728f",
+      "e9930b1f-948e-4daf-8b9e-1630e7946d46",
+      "893173a2-f8ca-4782-8859-db0f10f18b5b"
+    ],
+    "retrieved_ids": [
+      "983b3d72-d7e2-4668-8648-abfb83a794b4",
+      "c94e6d35-6409-41f6-b3e8-a8c6de04728f",
+      "45dbddaa-85f2-4920-b1ce-dfdbec83dfd7",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "a71f0bca-c021-41cb-a436-087eb62805a2"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.16666666666666666,
+      "ndcg": 0.2960819109658652
+    }
+  },
+  {
+    "index": 7,
+    "question": "Name three types of securities registered pursuant to Section 12(b) of the Act other than common stock.",
+    "reference": "1.000% Notes due 2022, 1.375% Notes due 2024, 0.000% Notes due 2025.",
+    "expected_ids": [
+      "5c9570b5-e4e8-4d36-a882-89d18bb4aed9",
+      "17a44e1f-666e-424a-81cf-2122c3211250",
+      "9e69c46c-0cb0-4b39-a37f-e6f174f18e0e"
+    ],
+    "retrieved_ids": [
+      "1b60b288-7389-4cd8-bf04-793b5a0b8be3",
+      "692c709f-0c92-4f73-adcd-d5abad8e0d5f",
+      "df2d3fad-3db7-4c2d-90ba-51ca68988ce8",
+      "aa37e25e-a119-432e-a9d4-c0411cf6194b",
+      "a55e2b7f-b169-47a7-ba0e-93ac862e2ed2"
+    ],
+    "metrics": {
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap": 0.0,
+      "ndcg": 0.0
+    }
+  },
+  {
+    "index": 8,
+    "question": "What percentage of Apple\u2019s 2021 net sales came from direct distribution channels?",
+    "reference": "36%.",
+    "expected_ids": [
+      "a2a602c2-53c0-4ce0-a7d8-dff8259cc489",
+      "b7b99c52-90c5-4331-9efa-a18ffada259a",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66"
+    ],
+    "retrieved_ids": [
+      "88291cc7-2de4-43c6-81c5-63d1b3a9cede",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "b63795a7-3a2c-4b52-a43b-6445ad9f4aa7",
+      "fa1036c8-532c-4180-8b66-c7694de5c352",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.16666666666666666,
+      "ndcg": 0.2960819109658652
+    }
+  },
+  {
+    "index": 9,
+    "question": "What percentage of Apple\u2019s 2021 net sales came from indirect distribution channels?",
+    "reference": "64%.",
+    "expected_ids": [
+      "a2a602c2-53c0-4ce0-a7d8-dff8259cc489",
+      "b7b99c52-90c5-4331-9efa-a18ffada259a",
+      "90e7ddfd-c377-4554-a085-29891e6ffbe3"
+    ],
+    "retrieved_ids": [
+      "88291cc7-2de4-43c6-81c5-63d1b3a9cede",
+      "fa1036c8-532c-4180-8b66-c7694de5c352",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "b63795a7-3a2c-4b52-a43b-6445ad9f4aa7",
+      "49ea4a88-ce46-49b7-aa25-3592c94533db"
+    ],
+    "metrics": {
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap": 0.0,
+      "ndcg": 0.0
+    }
+  },
+  {
+    "index": 10,
+    "question": "How did COVID-19 affect Apple\u2019s supply chain?",
+    "reference": "It caused disruptions among component suppliers, manufacturing, and logistics providers, resulting in supply shortages affecting sales worldwide.",
+    "expected_ids": [
+      "f36b513a-c156-4c89-afec-b32506447d66",
+      "ed7a8b1d-6926-4ea0-af31-67234d284677",
+      "7fb32d5c-e371-4a41-91af-3790101ea141"
+    ],
+    "retrieved_ids": [
+      "07e0299c-d1bc-4033-964e-c11ec643890d",
+      "7fb32d5c-e371-4a41-91af-3790101ea141",
+      "ed7a8b1d-6926-4ea0-af31-67234d284677",
+      "f36b513a-c156-4c89-afec-b32506447d66",
+      "dac529ed-56b4-4045-92ef-c298f608f0d1"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 0.6388888888888888,
+      "ndcg": 0.7328286204777911
+    }
+  },
+  {
+    "index": 11,
+    "question": "What are two macroeconomic risks identified by Apple?",
+    "reference": "Inflation and currency fluctuations.",
+    "expected_ids": [
+      "91aa39be-7e14-4e1e-92f9-82bb6a1808f2",
+      "f60f90d0-4e32-4ac9-abbc-72ec15bc1493",
+      "3899f413-fc38-49f4-ad20-0e87766be793"
+    ],
+    "retrieved_ids": [
+      "6d66a74c-7d39-4ada-87ea-04289e418938",
+      "3899f413-fc38-49f4-ad20-0e87766be793",
+      "2325b207-b350-42c4-984b-41fe56b62ad2",
+      "542a9441-178e-45e6-8611-4f836a0c7174",
+      "91aa39be-7e14-4e1e-92f9-82bb6a1808f2"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.3,
+      "ndcg": 0.4776237035032179
+    }
+  },
+  {
+    "index": 12,
+    "question": "What risks does Apple face from global competition?",
+    "reference": "Aggressive price competition, short product life cycles, rapid adoption of technology by competitors, and imitation of Apple\u2019s products.",
+    "expected_ids": [
+      "dbd799cf-ffd7-4362-8194-5fb8bb9f93c3",
+      "6c727c54-a5b5-4d57-a1c6-9f92101a44b7",
+      "df9a990f-69c2-46e9-98c5-0cf329844dfd"
+    ],
+    "retrieved_ids": [
+      "6c727c54-a5b5-4d57-a1c6-9f92101a44b7",
+      "dbd799cf-ffd7-4362-8194-5fb8bb9f93c3",
+      "df9a990f-69c2-46e9-98c5-0cf329844dfd",
+      "542a9441-178e-45e6-8611-4f836a0c7174",
+      "f36b513a-c156-4c89-afec-b32506447d66"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 13,
+    "question": "How many full-time equivalent employees did Apple have as of September 25, 2021?",
+    "reference": "Approximately 154,000.",
+    "expected_ids": [
+      "27f2bc77-d908-4a40-b892-1c1801c604af",
+      "03bc1298-6a60-43e4-bdf9-1f433cbf3a63",
+      "ea6ae3e8-91ff-4a72-99fc-b31db9f93571"
+    ],
+    "retrieved_ids": [
+      "27f2bc77-d908-4a40-b892-1c1801c604af",
+      "03bc1298-6a60-43e4-bdf9-1f433cbf3a63",
+      "55471c15-110f-426e-8767-dcdcea49cfb1",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.6666666666666666,
+      "ndcg": 0.7653606369886217
+    }
+  },
+  {
+    "index": 14,
+    "question": "What are Apple\u2019s stated commitments regarding workplace practices?",
+    "reference": "Providing a workplace free of harassment or discrimination, being an equal opportunity employer, fostering inclusion and diversity.",
+    "expected_ids": [
+      "77cf4d72-7d55-4a97-9a54-e88ab504db65",
+      "25358b53-1c80-4be6-a48b-5a57fda6edf3",
+      "79314b76-9c95-4bfb-a466-2a0e209c1fdc"
+    ],
+    "retrieved_ids": [
+      "77cf4d72-7d55-4a97-9a54-e88ab504db65",
+      "86b2373c-259f-4760-bfe4-43075f428e92",
+      "25358b53-1c80-4be6-a48b-5a57fda6edf3",
+      "79314b76-9c95-4bfb-a466-2a0e209c1fdc",
+      "b626aab4-dd24-4f62-8090-554940097d19"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 0.8055555555555555,
+      "ndcg": 0.9060254355346823
+    }
+  },
+  {
+    "index": 15,
+    "question": "What potential impacts do antitrust investigations pose to Apple\u2019s business?",
+    "reference": "They could result in fines, mandatory changes to the App Store, reputational harm, and adverse impacts on sales and margins.",
+    "expected_ids": [
+      "024dd365-7b00-48e5-8811-aa2272e0d996",
+      "ff73b69c-2a99-435e-86f2-e131b1d1ab62",
+      "c4f23ac5-c052-4456-a817-800ece653e38"
+    ],
+    "retrieved_ids": [
+      "024dd365-7b00-48e5-8811-aa2272e0d996",
+      "c4f23ac5-c052-4456-a817-800ece653e38",
+      "ff73b69c-2a99-435e-86f2-e131b1d1ab62",
+      "a78a43f6-bb16-4c1c-ade0-962ba011e074",
+      "9f7368af-1064-4add-8464-ccdc17f029c0"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 16,
+    "question": "Which quarter has historically seen higher net sales for Apple, and why?",
+    "reference": "The first fiscal quarter, due in part to seasonal holiday demand.",
+    "expected_ids": [
+      "3d51b266-a597-44fd-a572-6f00412cf3f3",
+      "19d53d0e-363c-4fab-8e00-def7235f6e5d",
+      "b2c3d03d-5baf-492e-9cf3-fc82d35e3de6"
+    ],
+    "retrieved_ids": [
+      "3d51b266-a597-44fd-a572-6f00412cf3f3",
+      "19d53d0e-363c-4fab-8e00-def7235f6e5d",
+      "b2c3d03d-5baf-492e-9cf3-fc82d35e3de6",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 1.0,
+      "ndcg": 1.0
+    }
+  },
+  {
+    "index": 17,
+    "question": "What were Apple\u2019s total net sales for fiscal year 2021?",
+    "reference": "$365.8 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "061e9e71-81ee-4475-adfb-52621700baec"
+    ],
+    "retrieved_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "a404b818-eccb-48e8-af78-11a85ae05b40",
+      "9b7c4763-006c-45e9-b36c-3ccf99d36634",
+      "b63795a7-3a2c-4b52-a43b-6445ad9f4aa7"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.3333333333333333,
+      "ndcg": 0.46927872602275644
+    }
+  },
+  {
+    "index": 18,
+    "question": "What were Apple\u2019s net sales in fiscal year 2020?",
+    "reference": "$274.5 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8"
+    ],
+    "retrieved_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "a404b818-eccb-48e8-af78-11a85ae05b40",
+      "b63795a7-3a2c-4b52-a43b-6445ad9f4aa7",
+      "9b7c4763-006c-45e9-b36c-3ccf99d36634"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.3333333333333333,
+      "ndcg": 0.46927872602275644
+    }
+  },
+  {
+    "index": 19,
+    "question": "How much did Apple spend on research and development in 2021?",
+    "reference": "$21.9 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "061e9e71-81ee-4475-adfb-52621700baec"
+    ],
+    "retrieved_ids": [
+      "03ddb003-5dae-4020-b807-9d40da2db141",
+      "f935679e-0f44-4404-9ce9-779b4ae2c5e9",
+      "e30a6fb7-5d76-48f0-a3ab-8eebb7a620ac",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "55471c15-110f-426e-8767-dcdcea49cfb1"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.25,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.08333333333333333,
+      "ndcg": 0.20210734650054757
+    }
+  },
+  {
+    "index": 20,
+    "question": "What was Apple\u2019s net income for 2021?",
+    "reference": "$94.7 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "c7f55df8-35e8-40fa-954e-0ed757ab31ba",
+      "5476ed24-31b5-4288-b77a-3456b47473df"
+    ],
+    "retrieved_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "a404b818-eccb-48e8-af78-11a85ae05b40",
+      "55471c15-110f-426e-8767-dcdcea49cfb1",
+      "c7f55df8-35e8-40fa-954e-0ed757ab31ba",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.5,
+      "ndcg": 0.6713860725233041
+    }
+  },
+  {
+    "index": 21,
+    "question": "What were Apple\u2019s total assets at the end of fiscal year 2021?",
+    "reference": "$351.0 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6"
+    ],
+    "retrieved_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6",
+      "55471c15-110f-426e-8767-dcdcea49cfb1",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "780ff624-070e-417e-8145-b1e078cc7d58"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.6666666666666666,
+      "ndcg": 0.7653606369886217
+    }
+  },
+  {
+    "index": 22,
+    "question": "How much cash, cash equivalents, and marketable securities did Apple report in 2021?",
+    "reference": "$191.8 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "061e9e71-81ee-4475-adfb-52621700baec"
+    ],
+    "retrieved_ids": [
+      "a724e767-8dfe-4136-abd9-865b14b20503",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "402efcf7-a067-4d6c-ad6b-f29c96f61f80",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6",
+      "b906eb2d-8415-4207-bec9-942cf006c750"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.16666666666666666,
+      "ndcg": 0.2960819109658652
+    }
+  },
+  {
+    "index": 23,
+    "question": "How did Apple\u2019s R&D expenses in 2021 compare to 2019?",
+    "reference": "$21.9 billion in 2021 vs. $16.2 billion in 2019.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "e30a6fb7-5d76-48f0-a3ab-8eebb7a620ac",
+      "b63795a7-3a2c-4b52-a43b-6445ad9f4aa7"
+    ],
+    "retrieved_ids": [
+      "03ddb003-5dae-4020-b807-9d40da2db141",
+      "e30a6fb7-5d76-48f0-a3ab-8eebb7a620ac",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "f935679e-0f44-4404-9ce9-779b4ae2c5e9",
+      "3f51e71e-54c2-4cac-b27b-e026d86385c4"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.38888888888888884,
+      "ndcg": 0.5307212739772434
+    }
+  },
+  {
+    "index": 24,
+    "question": "What was the change in net sales between 2020 and 2021?",
+    "reference": "Increased by $91.3 billion ($365.8B in 2021 vs. $274.5B in 2020).",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6",
+      "aabe8c39-45f6-4706-aa7e-4b2769d9be43"
+    ],
+    "retrieved_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "b2c3d03d-5baf-492e-9cf3-fc82d35e3de6",
+      "0482c5e9-3af7-4c0d-82fe-c10d54ad3bc9",
+      "9a95a215-bfb2-4c0c-87fb-15dc6dce1328"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.3333333333333333,
+      "ndcg": 0.46927872602275644
+    }
+  },
+  {
+    "index": 25,
+    "question": "What were Apple\u2019s 2021 net sales in Greater China?",
+    "reference": "$68.4 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8"
+    ],
+    "retrieved_ids": [
+      "8ca14538-821e-4fb5-b5c2-b12350d83e5a",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "14523d7e-380f-40cc-805b-1253521b8d91",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "32810e28-f0fa-408b-9e19-0359c80f8a8a"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.16666666666666666,
+      "ndcg": 0.2960819109658652
+    }
+  },
+  {
+    "index": 26,
+    "question": "What were Apple\u2019s 2021 net sales in Europe?",
+    "reference": "$89.3 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "061e9e71-81ee-4475-adfb-52621700baec"
+    ],
+    "retrieved_ids": [
+      "dc59a674-746e-4be5-80db-72c33dfcc63a",
+      "14523d7e-380f-40cc-805b-1253521b8d91",
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "9a95a215-bfb2-4c0c-87fb-15dc6dce1328"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.25,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "ap": 0.08333333333333333,
+      "ndcg": 0.20210734650054757
+    }
+  },
+  {
+    "index": 27,
+    "question": "Which region had the highest net sales in 2021, and how much?",
+    "reference": "Americas, $153.3 billion.",
+    "expected_ids": [
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "14523d7e-380f-40cc-805b-1253521b8d91",
+      "32810e28-f0fa-408b-9e19-0359c80f8a8a"
+    ],
+    "retrieved_ids": [
+      "a0d1fc45-dcf9-4cb4-9b27-9ce6ed60f385",
+      "dc59a674-746e-4be5-80db-72c33dfcc63a",
+      "14523d7e-380f-40cc-805b-1253521b8d91",
+      "0a4aeec0-71fe-4819-80c6-2166e2de9ee6",
+      "8ca14538-821e-4fb5-b5c2-b12350d83e5a"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.5555555555555555,
+      "ndcg": 0.7039180890341347
+    }
+  },
+  {
+    "index": 28,
+    "question": "What was Apple\u2019s diluted earnings per share (EPS) in 2021?",
+    "reference": "$5.61.",
+    "expected_ids": [
+      "f682e079-cc63-417d-a6a8-53549703707c",
+      "df2d3fad-3db7-4c2d-90ba-51ca68988ce8",
+      "aabe8c39-45f6-4706-aa7e-4b2769d9be43"
+    ],
+    "retrieved_ids": [
+      "f682e079-cc63-417d-a6a8-53549703707c",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "aabe8c39-45f6-4706-aa7e-4b2769d9be43",
+      "a404b818-eccb-48e8-af78-11a85ae05b40",
+      "55471c15-110f-426e-8767-dcdcea49cfb1"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.5555555555555555,
+      "ndcg": 0.7039180890341347
+    }
+  },
+  {
+    "index": 29,
+    "question": "How did the diluted EPS in 2021 compare to 2020?",
+    "reference": "Increased from $3.28 in 2020 to $5.61 in 2021.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "3f51e71e-54c2-4cac-b27b-e026d86385c4",
+      "e30a6fb7-5d76-48f0-a3ab-8eebb7a620ac"
+    ],
+    "retrieved_ids": [
+      "f682e079-cc63-417d-a6a8-53549703707c",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "aabe8c39-45f6-4706-aa7e-4b2769d9be43",
+      "ea6ae3e8-91ff-4a72-99fc-b31db9f93571",
+      "e30a6fb7-5d76-48f0-a3ab-8eebb7a620ac"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.3,
+      "ndcg": 0.4776237035032179
+    }
+  },
+  {
+    "index": 30,
+    "question": "What was Apple\u2019s cash flow from operating activities in 2021?",
+    "reference": "$104.0 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "5476ed24-31b5-4288-b77a-3456b47473df"
+    ],
+    "retrieved_ids": [
+      "b906eb2d-8415-4207-bec9-942cf006c750",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "a404b818-eccb-48e8-af78-11a85ae05b40",
+      "55471c15-110f-426e-8767-dcdcea49cfb1"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.38888888888888884,
+      "ndcg": 0.5307212739772434
+    }
+  },
+  {
+    "index": 31,
+    "question": "What was Apple\u2019s cash flow from financing activities in 2021?",
+    "reference": "-$93.4 billion (net cash used).",
+    "expected_ids": [
+      "b906eb2d-8415-4207-bec9-942cf006c750",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "35bfe648-2ccd-4631-a722-264b066ff4fe"
+    ],
+    "retrieved_ids": [
+      "b906eb2d-8415-4207-bec9-942cf006c750",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "061e9e71-81ee-4475-adfb-52621700baec",
+      "db2b8915-b964-4045-aea8-69cb28a6b640",
+      "98555c6e-3218-4d51-84e0-391a5191dbf6"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.5555555555555555,
+      "ndcg": 0.7039180890341347
+    }
+  },
+  {
+    "index": 32,
+    "question": "How much did Apple spend on share repurchases in 2021?",
+    "reference": "$85.5 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8",
+      "5476ed24-31b5-4288-b77a-3456b47473df"
+    ],
+    "retrieved_ids": [
+      "fc3d7e68-e8bd-4afc-aa19-e36565003fb8",
+      "e50d3503-bb3a-4cbb-9703-1980005952cc",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "9b3347b4-e124-466f-abd1-3f1dbb737345",
+      "5476ed24-31b5-4288-b77a-3456b47473df"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "precision": 0.6,
+      "recall": 1.0,
+      "ap": 0.7555555555555555,
+      "ndcg": 0.8854598815714874
+    }
+  },
+  {
+    "index": 33,
+    "question": "How much did Apple pay in dividends and dividend equivalents in 2021?",
+    "reference": "$14.5 billion.",
+    "expected_ids": [
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66"
+    ],
+    "retrieved_ids": [
+      "5476ed24-31b5-4288-b77a-3456b47473df",
+      "4d0a5c7b-7d36-41db-807b-b664eeff1f66",
+      "fd5c98f1-5dff-4cef-9fc3-5e03e874f803",
+      "aabe8c39-45f6-4706-aa7e-4b2769d9be43",
+      "f682e079-cc63-417d-a6a8-53549703707c"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.2,
+      "recall": 1.0,
+      "ap": 0.5,
+      "ndcg": 0.6309297535714575
+    }
+  },
+  {
+    "index": 34,
+    "question": "Which accounting standard governs Apple\u2019s financial statements?",
+    "reference": "U.S. Generally Accepted Accounting Principles (U.S. GAAP).",
+    "expected_ids": [
+      "1c56ac42-db3e-4c5a-bf3c-1c02a4e1ae67",
+      "dc4bb026-0290-4432-bac4-5b5a82be3b81",
+      "865b1521-c23c-4b55-998e-968c106d842d"
+    ],
+    "retrieved_ids": [
+      "62d3096f-61d2-495a-967d-46870be51eb4",
+      "1c56ac42-db3e-4c5a-bf3c-1c02a4e1ae67",
+      "dc4bb026-0290-4432-bac4-5b5a82be3b81",
+      "dff1206d-2c10-45c8-9725-7accc7f7f2be",
+      "0405fcc5-98df-475f-99bf-70c2630fe6c5"
+    ],
+    "metrics": {
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "ap": 0.38888888888888884,
+      "ndcg": 0.5307212739772434
+    }
+  },
+  {
+    "index": 35,
+    "question": "Where in the 10-K does Apple incorporate the 2022 Proxy Statement by reference?",
+    "reference": "Part III.",
+    "expected_ids": [
+      "ec498dcf-a4e0-450d-a711-596ea056d538",
+      "10d93d2b-ea3e-4af3-a270-e243de188dae",
+      "09b6d397-ab95-4719-b547-55322db06298"
+    ],
+    "retrieved_ids": [
+      "6225c431-511a-4704-8a03-a92216ffe8d8",
+      "ae2775e4-4209-4be2-9ecb-9bf4817c53d4",
+      "3b5fdfd9-d568-4d30-84b2-098159674d98",
+      "1d336c2a-26f4-4e3d-97f6-9a97cf0de764",
+      "43c7e0e2-6a06-4390-b990-df8e9187c443"
+    ],
+    "metrics": {
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap": 0.0,
+      "ndcg": 0.0
+    }
+  }
+]

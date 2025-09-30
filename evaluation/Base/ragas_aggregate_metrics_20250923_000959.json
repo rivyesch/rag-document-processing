@@ -1,0 +1,8 @@
+{
+  "aggregates": {
+    "context_precision": 0.7099603174117919,
+    "context_recall": 0.6857142857142857,
+    "faithfulness": 0.6987179487179488,
+    "answer_relevancy": 0.47587776240654855
+  }
+}
